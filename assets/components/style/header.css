@@ -1,0 +1,39 @@
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.header__logo {
+    margin-left: 3rem;
+}
+
+.header__navigation {
+    display: flex;
+}
+
+.header__navigation li {
+    margin-left: 3rem;
+}
+
+.header__navigation li:first-child {
+    margin-left: 0;
+}
+
+.header__button {
+    margin-right: 3rem;
+}
+
+#header__btn-login {
+    text-decoration: none;
+    color: var(--descricao);
+}
+
+#header__btn-cadastro{
+    text-decoration: none;
+    background-color: var(--vinho);
+    color: #FFF;
+    padding: 10px;
+    border-radius: 8px;
+    margin-left: 30px;
+}
