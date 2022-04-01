@@ -1,0 +1,57 @@
+.sobre__text{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    padding: 6rem;
+}
+
+.sobre__first-title{
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--vinho);
+}
+
+.sobre__second-title{
+    width: 652px;
+    font-size: 48px;
+    color: var(--titulo);
+    font-weight: 600;
+}
+
+.sobre__description {
+    font-size: 20px;
+    width: 790px;
+    color: var(--descricao);
+    line-height: 30px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 6rem;
+}
+
+.sobre__cards{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.sobre__cards-title{
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--vinho);
+}
+
+.sobre__cards-second-title{
+    font-size: 18px;
+    color: var(--titulo);
+}
+
+.sobre__cards-description{
+    color: var(--descricao);
+    font-size: 16px;
+    width: 280px;
+    line-height: 24px;
+}
