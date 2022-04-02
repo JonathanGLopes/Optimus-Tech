@@ -1,0 +1,48 @@
+.comment {
+    background-color: #f8f1f1;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    padding: 4rem;
+    margin-top: 6rem;
+}
+
+.comment__first-title {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--vinho);
+}
+
+.comment__second-title {
+    font-size: 36px;
+    color: var(--titulo);
+    line-height: 44px;
+    text-align: center;
+    width: 1088px;
+}
+
+.comment__user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+}
+
+.user-img {
+    width: 56px;
+}
+
+.user__name {
+    color: var(--titulo);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.user__work {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--descricao);
+}
