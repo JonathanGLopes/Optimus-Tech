@@ -1,0 +1,42 @@
+.oportunidades {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    padding: 6rem;
+    margin-top: 6rem;
+}
+
+.oportunidades__first-title {
+    font-size: 36px;
+    color: var(--titulo);
+    font-weight: 600;
+}
+
+.oportunidades__second-title {
+    font-size: 20px;
+    color: var(--descricao);
+
+}
+
+.email-cadastro {
+    width: 360px;
+    padding: 1rem;
+    border-radius: 10px;
+    border: 1px solid #D0D5DD;
+}  
+
+#btn-cadastro {
+    text-decoration: none;
+    background-color: var(--vinho);
+    color: #FFF;
+    padding: 10px;
+    border-radius: 8px;
+    margin-left: 1rem;
+}
+
+.direitos {
+    font-size: 16px;
+    color: var(--descricao);
+    margin-top: 1rem;
+}
