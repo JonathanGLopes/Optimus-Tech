@@ -6,11 +6,22 @@
 @import url(../style/oportunidade.css);
 
 
+/* mobile */
+
 
 :root {
     --titulo: #101828;
     --descricao: #667085; 
     --vinho: #8E2424;
+}
+
+body::-webkit-scrollbar{
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: var(--vinho);
+    border-radius: 5px;
 }
 
 body {
