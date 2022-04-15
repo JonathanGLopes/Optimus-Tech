@@ -10,17 +10,20 @@
 <body>
     <header class="main-header">
         <a href="#"><img src="assets/img/img-logo.svg" alt="Logo Optimus Tech" class="header__logo"></a>
-        <nav class="header__nav">
-            <ul class="header__navigation">
-                <li>Home</li>
-                <li>Produtos</li>
-                <li>Recursos</li>
-                <li>Sobre Nós</li>
-            </ul>
-        </nav>
-        <div class="header__button">
-            <a href="#" id="header__btn-login">Entrar</a>
-            <a href="#" id="header__btn-cadastro">Cadastrar</a>
+        <a href="#" class="menu-mobile"><img src="assets/img/menu.png" alt="Ícone menu" class="menu-icon"></a>
+        <div class="wrap-nav">
+            <nav class="header__nav">
+                <ul class="header__navigation">
+                    <li>Home</li>
+                    <li>Produtos</li>
+                    <li>Recursos</li>
+                    <li>Sobre Nós</li>
+                </ul>
+            </nav>
+            <div class="header__button">
+                <a href="#" id="header__btn-login">Entrar</a>
+                <a href="#" id="header__btn-cadastro">Cadastrar</a>
+            </div>
         </div>
     </header>
     <main class="main-content">
@@ -117,5 +120,7 @@
         </div>
         <span class="direitos">© 2022 OptimusTech. Todos os direitos reservados.</span>
     </section>
+
+    <script src="assets/components/script/menu-mobile.js"></script>
 </body>
 </html>

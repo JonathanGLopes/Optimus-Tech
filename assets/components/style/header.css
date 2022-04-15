@@ -1,11 +1,23 @@
 .main-header {
     display: flex;
-    justify-content: space-around;
     padding: 2rem;
+    justify-content: space-evenly;
+}
+
+.menu-mobile {
+    display: none;
 }
 
 .header__logo {
-    margin-left: 3rem;
+    align-self: flex-start;
+}
+
+.wrap-nav {
+    display: flex;
+}
+
+.header__nav {
+   margin-right: 15rem;
 }
 
 .header__navigation {
