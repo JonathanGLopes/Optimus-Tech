@@ -9,6 +9,7 @@
 /* mobile */
 
 @import url(../mobile/mobile-nav.css);
+@import url(../mobile/mobile-sobre.css);
 
 :root {
     --titulo: #101828;

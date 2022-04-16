@@ -1,0 +1,28 @@
+@media (max-width: 768px){
+    .sobre__text{
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .sobre__second-title{
+        font-size: 24px;
+        width: 80%;
+    }
+
+    .sobre__description{
+        width: 80%;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        align-items: center;
+        margin-top: 4rem;
+    }
+
+    .sobre__cards {
+        align-items: center;
+        text-align: center;
+    }
+}
