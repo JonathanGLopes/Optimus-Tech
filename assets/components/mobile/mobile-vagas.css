@@ -1,0 +1,21 @@
+@media (max-width: 768px){
+    .vagas__title{
+        width: 80%;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .vagas__description{
+        width: 80%;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .vagas__design, .vagas__dev{
+        width: 80%;
+    }
+
+    .vagas__design-cargos, .vagas__dev-cargos{
+        width: 80%;
+    }
+}

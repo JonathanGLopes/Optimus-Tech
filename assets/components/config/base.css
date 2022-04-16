@@ -10,6 +10,7 @@
 
 @import url(../mobile/mobile-nav.css);
 @import url(../mobile/mobile-sobre.css);
+@import url(../mobile/mobile-vagas.css);
 
 :root {
     --titulo: #101828;
