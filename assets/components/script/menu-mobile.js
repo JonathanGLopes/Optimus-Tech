@@ -1,5 +1,5 @@
 const $menuMobile = document.querySelector(".menu-mobile");
-const $navLink = document.querySelector(".header__nav");
+const $navLink = document.querySelector(".wrap-nav");
 
 $menuMobile.addEventListener("click", () => {
     $navLink.classList.toggle("nav-active");
