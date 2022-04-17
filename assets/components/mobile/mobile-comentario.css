@@ -1,0 +1,18 @@
+@media (max-width: 768px){
+    .comment{
+        padding: 2rem;
+    }
+    
+    .comment__title{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .comment__second-title{
+        font-size: 20px;
+        width: 22rem;
+        line-height: 24px;
+        align-self: center;
+    }
+}
