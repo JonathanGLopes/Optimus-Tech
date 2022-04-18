@@ -12,6 +12,7 @@
 @import url(../mobile/mobile-sobre.css);
 @import url(../mobile/mobile-vagas.css);
 @import url(../mobile/mobile-comentario.css);
+@import url(../mobile/mobile-oportunidade.css);
 
 :root {
     --titulo: #101828;
